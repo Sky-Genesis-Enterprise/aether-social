@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sky-Genesis-Enterprise/aether-social/issues"
   },
-  "homepage": "https://github.com/Sky-Genesis-Enterprise/aether-social#readme"
+  "homepage": "https://github.com/Sky-Genesis-Enterprise/aether-social#readme",
+  "dependencies": {
+    "react": "^19.1.0"
+  }
 }

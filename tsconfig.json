@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Version moderne de JavaScript
+    "module": "commonjs", // Module utilisé par Node.js
+    "strict": true, // Active toutes les vérifications strictes
+    "strictNullChecks": true, // Vérifie les null/undefined
+    "jsx": "react", // Support JSX pour React
+    "esModuleInterop": true, // Compatibilité avec les modules CommonJS
+    "allowSyntheticDefaultImports": true, // Permet les imports par défaut synthétiques
+    "resolveJsonModule": true, // Permet d'importer des fichiers JSON
+    "skipLibCheck": true, // Ignore les vérifications des fichiers de type
+    "baseUrl": "./", // Racine du projet
+    "paths": {
+      "@/*": ["app/*"] // Alias pour le dossier app
+    }
+  },
+  "include": ["app/**/*.ts", "app/**/*.tsx"], // Inclut tous les fichiers TypeScript dans app/
+  "exclude": [
+    "node_modules", // Exclut les dépendances
+    "babel.config.js", // Exclut la config Babel
+    "metro.config.js", // Exclut la config Metro
+    "jest.config.js" // Exclut la config Jest (si applicable)
+  ]
+}
